@@ -1,0 +1,77 @@
+header{
+    border: 5px dashed green;
+    height: 250px;
+    margin:auto;
+    padding: 50px;
+    text-align: left;
+    background-color: darkcyan;
+    background-size: cover;
+
+}
+h1{
+   font-family: "Garamond" ,"Century Gothic", SansSerif;
+    font-size: 3em;
+    margin-bottom: auto;
+}
+h2{
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: auto;
+
+}
+body{
+    font-family: "Century Gothic" ,"Garamond", sans-serif;
+}
+
+.sidebar{
+    margin-left: 600px;
+    position: absolute;
+    top: 400px;
+    right: 8em;
+}
+.summary {
+     width:  65%;
+    margin-left: 1em;
+    background-color: #eee1cb;
+    padding: 8px;
+}
+
+.preamble {
+    width: 65%;
+    margin-left: 1em;
+    background-color: #efe;
+    padding: 8px;
+}
+
+.supporting {
+    width: 65%;
+    margin-left: 1em;
+    background-color: #2324;
+    padding: 8px;
+}
+
+footer {
+    width: 100%;
+    padding: 3em;
+    background: url(http://csszengarden.com/214/koi.jpg);
+    text-align: center;
+    font-size: 22pt;
+    font-family: "Lucida Sans Typewriter", serif;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+aside {
+    background-color: darkkhaki;
+}
+
+.zen-resources{
+    margin-left: 600px;
+    position: absolute;
+    top: 600px;
+    right: 8em;
+
+}
