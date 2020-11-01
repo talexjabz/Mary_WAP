@@ -1,0 +1,50 @@
+label {
+    float: left;
+    margin-right: 1em;
+    text-align: right;
+    width: 10em;
+}
+
+span {
+    margin-left: 16px;
+    font-weight: normal;
+}
+header {
+    background: cyan;
+    padding: 1em;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: "Century Gothic", "Garamond", sans-serif;
+    font-size: 16pt;
+    font-weight: normal;
+}
+.required-elements::after {
+    content: "*";
+    color: red;
+}
+
+div {
+    margin-left: 9em;
+}
+
+.payment-mode-section {
+    width: 50%;
+    position: absolute;
+    top: 5em;
+    margin-left: 600px;
+    right: 0
+}
+
+.details-section {
+    width: 50%;
+}
+
+footer {
+    margin-top: 5em;
+    background: aquamarine;
+    padding: 8px;
+    text-align: center;
+}
